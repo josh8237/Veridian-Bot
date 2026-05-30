@@ -1,19 +1,13 @@
 {
-  "name": "@workspace/discord-bot",
-  "version": "0.0.0",
-  "private": true,
+  "name": "verdian-bot",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "start": "tsx src/index.ts",
-    "dev": "tsx --watch src/index.ts",
-    "deploy": "tsx src/deploy-commands.ts",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "dev": "tsx --watch src/index.ts"
   },
   "dependencies": {
-    "discord.js": "^14.18.0"
-  },
-  "devDependencies": {
-    "@types/node": "catalog:",
-    "tsx": "catalog:"
+    "discord.js": "^14.18.0",
+    "tsx": "^4.20.0"
   }
 }
